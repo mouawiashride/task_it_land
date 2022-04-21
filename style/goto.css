@@ -1,0 +1,29 @@
+.gallery {
+    border: 2px solid rgba(0, 68, 255, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 50px ;
+}
+.gallery img 
+{
+    transition: 1s;
+    padding: 10px;
+    padding: 5px;
+    border:2px solid white
+   
+}
+.gallery img:hover
+{
+    border: 2px solid rgba(0, 68, 255, 0.397);
+    filter: brightness(80%);
+    transform: scale(1.5);
+    
+}
+
+ p {
+font-size: 20px;
+border: 1px solid rgba(0, 68, 255, 0.671);
+border-radius: 40px;
+padding: 10px;
+}
+
