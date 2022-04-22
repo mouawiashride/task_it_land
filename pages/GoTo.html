@@ -7,18 +7,24 @@
     <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../style/goto.css"  rel="stylesheet">
     <link rel="icon" href="../images/logo.jpg">
+
+    <script async src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
+
+
+
+    
     <title>الذهاب إلى</title>
 </head>
-<div>
+<body>
 
 <!-- Start Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light text-center" id="nav" >
+<nav class="navbar navbar-expand-lg text-light navbar-dark  bg-dark text-center" id="nav" >
   <div class="container-fluid">
     <a class="navbar-brand  " href="/index.html">
-      <img src="../images/logo.jpg" alt="logo" width="30" height="24">
+      <img src="../images/logo.jpg"  alt="logo" width="auto" height="50px">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" style="color: #0d6efd;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -26,7 +32,7 @@
           <a class="nav-link  border border-primary rounded-pill" aria-current="page" href="../index.html">الأساسية</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link border active border-primary rounded-pill" aria-current="page" href="GoTo.html">الذهاب إلى</a>
+          <a class="nav-link border border-primary rounded-pill active" aria-current="page" href="../pages/GoTo.html">الذهاب إلى</a>
         </li>
         <li class="nav-item">
           <a class="nav-link border border-primary rounded-pill" aria-current="page" href="#">التسجيل</a>
@@ -42,7 +48,12 @@
   </div>
 </nav>
 
- <!-- End Nav Bar -->
+<!-- End Nav Bar -->
+
+
+
+
+
 
 
 
@@ -51,10 +62,11 @@
  <!-- Start Sections -->
   
 
-<div class="container text-center">
+<div class="container text-center my-4">
     <h1 style="margin-bottom: 50px;">أقسامنا </h1>
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 p-4">
+    <div class="row " style="gap: 10px; justify-content: center">
+        <div class="col-xs-10 col-sm-5 one-gal  ">
+          
             <h2>نادي رياضي</h2>
             <p>
               نادي مزو د بكافة الأجهزة وبرامج رياضية جاهزة تستطيع اختيارها
@@ -64,15 +76,18 @@
               وممارستها أو وضع البرنامج الذي يناسبك.
             </p>
             <div class="row g-2 gallery ">
-                <img  src="../images/gym/maingym-sm.jpg" class="rounded-3 col" height="auto" width="100%" />
-                <img src="../images/gym/1shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/gym/2shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/gym/3shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/gym/4shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/gym/5shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
+              <a href="../images/gym/maingym-sm.jpg" class="col-12" data-toggle="lightbox" >  <img src="../images/gym/maingym-sm.jpg" class="rounded-3"   height="auto" width="100%" /></a>
+              <a href="../images/gym/1shot.jpg"      class="col-6"  data-toggle="lightbox">  <img src="../images/gym/1shot.jpg"     class="rounded-3"  height="auto" width="100%" /></a>
+              <a href="../images/gym/2shot.jpg"      class="col-6"    data-toggle="lightbox">  <img src="../images/gym/2shot.jpg"      class="rounded-3" height="auto" width="100%" /></a>
+              <a href="../images/gym/3shot.jpg"      class="col-6"   data-toggle="lightbox">  <img src="../images/gym/3shot.jpg"      class="rounded-3" height="auto" width="100%" /></a>
+              <a href="../images/gym/4shot.jpg"      class="col-6"   data-toggle="lightbox">  <img src="../images/gym/4shot.jpg"      class="rounded-3" height="auto" width="100%" /></a>
+              <a href="../images/gym/5shot.jpg"      class="col-6"   data-toggle="lightbox">  <img src="../images/gym/5shot.jpg"      class="rounded-3" height="auto" width="100%" /></a>
             </div>
         </div>
-        <div class=" col-xs-12 col-sm-6 col-md-4 ">
+
+
+        <div class=" col-xs-10 col-sm-5 one-gal p-2">
+        
             <h2>مركز موضة</h2>
             <p>
               فيها مختلف الأزياء والموضة تستطيع اختيار نمط الملابس التي
@@ -82,14 +97,19 @@
       تناسبك وتجريبها قبل شرائها.
             </p>
             <div class="row g-2 gallery">
-                <img src="../images/fashion/mainfashion.jpg" class="rounded-3 col" height="auto" width="100%" />
-                <img src="../images/fashion/3storr.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/fashion/Untitled-1.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/fashion/Untitled-11.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/fashion/Untitled-2.jpg" class="rounded-3 col-4" height="auto" width="100%" />
+                <a href="../images/fashion/mainfashion.jpg" class="col-12"  data-toggle="lightbox"><img src="../images/fashion/mainfashion.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+                <a href="../images/fashion/3storr.jpg"      class="col-6"  data-toggle="lightbox"> <img src="../images/fashion/3storr.jpg"      class="rounded-3 " height="auto" width="100%" /></a>
+                <a href="../images/fashion/Untitled-1.jpg"  class="col-6"   data-toggle="lightbox"><img src="../images/fashion/Untitled-1.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+                <a href="../images/fashion/Untitled-11.jpg" class="col-6"   data-toggle="lightbox"><img src="../images/fashion/Untitled-11.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+                <a href="../images/fashion/Untitled-2.jpg"  class="col-6"   data-toggle="lightbox"><img src="../images/fashion/Untitled-2.jpg"  class="rounded-3 " height="auto" width="100%" /></a>
             </div>
         </div>
-        <div class=" col-xs-12 col-sm-6 col-md-4 ">
+
+
+
+
+        <div class=" col-xs-10 col-sm-5 one-gal p-2  ">
+        
             <h2>صالون حلاقة</h2>
             <p>
               انتقاء تسريحة الشعر الرائجة وقياس تناسبها لشكلك قبل اعتمادها.
@@ -97,13 +117,14 @@
               انتقاء تسريحة الشعر الرائجة وقياس تناسبها لشكلك قبل اعتمادها.
             </p>
             <div class="row g-2 gallery">
-                <img src="../images/hairdresser/mainhairdresser.jpg" class="rounded-3 col" height="auto" width="100%" />
-                <img src="../images/hairdresser/1shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/hairdresser/2shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/hairdresser/3shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
+               <a href="../images/hairdresser/mainhairdresser.jpg"class="col-12" data-toggle="lightbox"> <img src="../images/hairdresser/mainhairdresser.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+               <a href="../images/hairdresser/1shot.jpg"class="col-6" data-toggle="lightbox"> <img src="../images/hairdresser/1shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+               <a href="../images/hairdresser/2shot.jpg"class="col-6" data-toggle="lightbox"> <img src="../images/hairdresser/2shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+               <a href="../images/hairdresser/3shot.jpg" class="col-6" data-toggle="lightbox"> <img src="../images/hairdresser/3shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
             </div>
         </div>
-        <div class=" col-xs-12 col-sm-6 col-md-4 ">
+        <div class=" col-xs-10 col-sm-5 one-gal p-2 ">
+          
             <h2>مكتب</h2>
             <p>
             يمكنك الوصول لأي بيت للشراء أو البيع في المنطقة
@@ -111,33 +132,39 @@
               يمكنك الوصول لأي بيت للشراء أو البيع في المنطقة
             </p>
             <div class="row g-2 gallery">
-                <img src="../images/offic/mainoffice.jpg" class="rounded-3 col" height="auto" width="100%" />
-                <img src="../images/offic/Untitled-1.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/offic/Untitled-2.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/offic/Untitled-3.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/offic/Untitled-4.jpg" class="rounded-3 col-4" height="auto" width="100%" />
+              <a href="../images/offic/mainoffice.jpg"class="col-12" data-toggle="lightbox">    <img src="../images/offic/mainoffice.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+              <a href="../images/offic/Untitled-1.jpg"class="col-6" data-toggle="lightbox">     <img src="../images/offic/Untitled-1.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+              <a href="../images/offic/Untitled-2.jpg"class="col-6" data-toggle="lightbox">     <img src="../images/offic/Untitled-2.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+              <a href="../images/offic/Untitled-3.jpg"class="col-6" data-toggle="lightbox">     <img src="../images/offic/Untitled-3.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+              <a href="../images/offic/Untitled-4.jpg"class="col-6" data-toggle="lightbox">     <img src="../images/offic/Untitled-4.jpg" class="rounded-3 " height="auto" width="100%" /></a>
             </div>
         </div>
-        <div class=" col-xs-12 col-sm-6 col-md-4 ">
-            <h2>مطعم</h2>
-            <p>
-              تستطيع اختيار وجباتك أو إعطاء وصفات من اختيارك لتجريبها من قبل
+      
+
+
+        <div class=" col-xs-10 col-sm-5 one-gal p-2  ">
+         
+          <h2>مطعم</h2>
+          <p>
+            تستطيع اختيار وجباتك أو إعطاء وصفات من اختيارك لتجريبها من قبل
 مستخدمين آخرين.
-           
-              تستطيع اختيار وجباتك أو إعطاء وصفات من اختيارك لتجريبها من قبل
+         
+            تستطيع اختيار وجباتك أو إعطاء وصفات من اختيارك لتجريبها من قبل
 مستخدمين آخرين.
-            </p>
-            <div class="row g-2 gallery">
-                <img src="../images/restaurant/mainrestaurant.jpg" class="rounded-3 col" height="auto" width="100%" />
-                <img src="../images/restaurant/1shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/2shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/3shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/5shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/4shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/6shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-                <img src="../images/restaurant/7shot.jpg" class="rounded-3 col-4" height="auto" width="100%" />
-              </div>
-        </div>
+          </p>
+          <div class="row g-2 gallery">
+            <a href="../images/restaurant/mainrestaurant.jpg"class="col-12" data-toggle="lightbox">    <img src="../images/restaurant/mainrestaurant.jpg" class="rounded-3 col" height="auto" width="100%" /></a>
+            <a href="../images/restaurant/1shot.jpg"         class="col-6" data-toggle="lightbox">   <img src="../images/restaurant/1shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/2shot.jpg"         class="col-6" data-toggle="lightbox">    <img src="../images/restaurant/2shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/3shot.jpg"         class="col-6" data-toggle="lightbox">     <img src="../images/restaurant/3shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/5shot.jpg"         class="col-6" data-toggle="lightbox">    <img src="../images/restaurant/5shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/4shot.jpg"         class="col-6" data-toggle="lightbox">    <img src="../images/restaurant/4shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/6shot.jpg"         class="col-6" data-toggle="lightbox">   <img src="../images/restaurant/6shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+            <a href="../images/restaurant/7shot.jpg"         class="col-6" data-toggle="lightbox">   <img src="../images/restaurant/7shot.jpg" class="rounded-3 " height="auto" width="100%" /></a>
+          </div>
+      </div> 
+
+
     </div>
 </div>
 
@@ -149,7 +176,12 @@
 
 
 
-<script src="../dist/js/bootstrap.min.js" ></script>
+
+
+
+
+ <script  src="../dist/js/bootstrap.min.js" ></script>
 <script src="../javascript/Goto.js"></script>
+
 </body>
 </html>

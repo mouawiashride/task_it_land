@@ -9,9 +9,11 @@
     transition: 1s;
     padding: 10px;
     padding: 5px;
-    border:2px solid white
-   
+    border:2px solid white;
+    height: 100%;
+    border-radius: 20px !important;
 }
+
 .gallery img:hover
 {
     border: 2px solid rgba(0, 68, 255, 0.397);
@@ -20,10 +22,17 @@
     
 }
 
- p {
+ .one-gal  p {
 font-size: 20px;
+color:black;
 border: 1px solid rgba(0, 68, 255, 0.671);
 border-radius: 40px;
 padding: 10px;
+transition: color 0.3s ease-in-out, background-color 0.5s ease-in-out ;
 }
 
+.one-gal  p:hover
+{
+  color:rgb(0, 68, 255);
+  background-color: rgb(192, 192, 192);
+}
